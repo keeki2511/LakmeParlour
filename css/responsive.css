@@ -1,0 +1,91 @@
+@media screen and (max-width: 740px) {
+    .form {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-as {
+        text-align: center;
+    }
+
+    .services {
+        max-width: 44.29%;
+    }
+
+    .facebook {
+        left: 57px;
+    }
+
+    #message-box h2 {
+        margin: 2px 70px 2px 70px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    #euphoria {
+        top: 10%;
+        width: 70%;
+        height: auto;
+        left: 15%;
+    }
+
+    .gallery {
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        display: none;
+    }
+
+    #carouselExampleControls {
+        display: block;
+    }
+
+    .carousel-control-next-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 70px;
+        height: 70px
+    }
+
+    footer a {
+        font-size: 9px;
+    }
+
+    input[type=text] {
+        width: 300px;
+    }
+
+    input[type=tel] {
+        width: 300px;
+        background-color: khaki;
+    }
+
+    input[type=submit] {
+        width: 300px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    .services {
+        max-width: 90%;
+    }
+    #popup__toggle {
+        display: block
+    }
+}

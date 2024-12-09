@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher'); html {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 0 auto;
+    border: 3px outset;
+    background: yellowgreen;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#euphoria {
+    top: 0;
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: auto;
+}
+
+#carouselHeader h1 {
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+#about-as img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+#services h3, #services p {
+    text-align: center;
+}
+
+#services img {
+    position: relative;
+    width: 40%;
+    left: 29%;
+    height: auto;
+    margin-top: 10px;
+    margin: 3px;
+    border-radius: 5%;
+}
+
+.services {
+    max-width: 31.29%;
+    height: auto;
+    margin-bottom: 50px;
+    border: 3px outset;
+    margin: 5px;
+    border-radius: 5%;
+    background-color: khaki;
+}
+
+#services-table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#gallery {
+    padding: 10px;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    background: khaki;
+    border: 2px outset;
+    border-radius: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.gallery > div > img {
+    display: block;
+    width: 145px;
+    height: auto;
+    transition: .1s transform;
+    transform: translateZ(0);
+    border-radius: 5%
+}
+
+.gallery > div:hover {
+    z-index: 1;
+}
+
+.gallery > div:hover > img {
+    transform: scale(1.7,1.7);
+    transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
+}
+
+#carouselExampleControls {
+    display: none;
+}
+
+#contacts {
+    padding-bottom: 20px;
+}
+
+#contacts a {
+    color: black;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=text] {
+    width: 445px;
+    background-color: khaki;
+}
+
+input[type=tel] {
+    width: 445px;
+    background-color: khaki;
+}
+
+input[type=submit] {
+    width: 445px;
+    background-color: khaki;
+}
+
+input[type=submit]:hover {
+    background-color: #f1e152;
+    margin: 2px;
+}
+
+textarea {
+    width: 445px;
+    height: 85px;
+    background-color: khaki;
+}
+
+footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background: #343a40;
+    padding: 5px;
+}
+
+#contacts img {
+    width: 40px;
+}
+
+footer a {
+    color: white;
+    align-self: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.form {
+    margin: 10px;
+    width: 60%;
+}
+
+.socium {
+    margin: 10px;
+}
+
+#message-box h2 {
+    color: red;
+    width: 350px;
+}
+
+address {
+    text-align: center;
+}
+
+.facebook {
+    position: relative;
+    left: 50px;
+    width: fit-content;
+}
+
+.left-price {
+    min-width: 310px;
+    text-align: right;
+}
+
+.right-price {
+    min-width: 310px;
+    text-align: right;
+}
+
+#prices .serv {
+    text-align: center;
+    list-style-type: none;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 2px;
+}
+
+.prices ul {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#popup__toggle{
+    display: none;
+}
+
+.loaderArea {
+    background: linear-gradient(90deg, rgba(208, 232, 208, 0.83) 10%, rgb(77, 225, 55) 90%);
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 100000;
+  }
+  .bookings{
+    border: 1px solid black;
+  }
